@@ -1,0 +1,50 @@
+* {
+    user-select: none;
+}
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:50px;
+    gap:10px;
+}
+span {
+    color:rgb(59, 244, 59)
+}
+.title {
+    color:white;
+    background-color:coral;
+    font-size:50px;
+    padding:5px;
+    text-transform:lower;
+    letter-spacing:3px;
+    text-align:center;
+    width:450px;
+   position:relative;
+   right:17px
+   
+    
+}
+.boxes {
+    width:500px;
+    background-color: coral;
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-left:3px
+}
+.boxes .Box {
+    color:white;
+    width:150px;
+    height:150px;
+    background-color:chocolate;
+    margin:2px;
+    font-size:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.boxes .Box:hover {
+    background-color:black;
+}
